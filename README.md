@@ -3,9 +3,10 @@
 ## Introduction
 
 On the West Coast, the metropolitan areas of COVID-19 case counts soared in the LA Metro Area while the metropolitan area of San Francisco, Sacramento, Portland, and Seattle experienced much smaller surges during the same time periods. Governmental policies in 2020 were nearly identical in California's cities and were very similar across the West Coast in California, Oregon, and Washington (and to lesser degrees in Nevada and Colorado) due to the Western States Pact (https://en.wikipedia.org/wiki/Western_States_Pact). Yet despite this standardization of public health policies across the West Coast, widely varying surge levels occurred across different metropolitan areas. 
-One of the most important tools for limiting pandemic spread and surge levels is to have individuals with possible COVID exposure or a positive COVID test undergo a 14 day isolation period. While a few limited jurisdictions had isolation hotels set up for the homeless or at-risk groups, the standard guidance was that indviduals should isolated at home upon notification of a positive test result or possible exposure. The CDC's requirements for home isolation include:
-			- "There is a bedroom where the patient can recover without sharing immediate space with others.
-			- There is a separate bathroom for the patient. If this is not feasible, care should be taken to disinfect the bathroom after each use."
+One of the most important tools for limiting pandemic spread and surge levels is to have individuals with possible COVID exposure or a positive COVID test undergo a 14 day isolation period. While a few limited jurisdictions had isolation hotels set up for the homeless or at-risk groups, the standard guidance was that individuals should isolated at home upon notification of a positive test result or possible exposure. The CDC's requirements for home isolation include:
+* There is a bedroom where the patient can recover without sharing immediate space with others.
+* There is a separate bathroom for the patient. If this is not feasible, care should be taken to disinfect the bathroom after each use.
+Maintaining proper home isolation is only feasible if the housing unit has at least one half bathroom and one bedroom more than the number of people living in the household. While a studio apartment may safely accomomodate the isolation of an individual living alone, a studio would be an infeasible housing unit for isolation if there were two people residing in it. Similarly, a two bedroom one bathroom housing unit with two or more residents could not feasibly maintain isolation as there would not be a bathroom that could be solely dedicated to the use of the isolated individual.
 
 Using the US Census Bureau's American Housing 
 
