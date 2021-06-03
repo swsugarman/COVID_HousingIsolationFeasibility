@@ -28,9 +28,13 @@ Planners, policy makers, and community stakeholders use the results of the AHS t
 
 | Field | Description |
 | :--- | :--- |
-| Field 1 | Description 1 |
-| Field 2 | Description 2 |
-| Field 3 | Description 3 |
+| BEDROOMS | Number of bedrooms in unit |
+| BATHROOMS | Number of bathrooms in unit |
+| NUMPEOPLE | Number of persons living in this unit |
+| NUMELDERS | Number of persons age 65 and over living in this unit |
+| MULTIGEN | Type of multigenerational household |
+| NUMSUBFAM | Number of subfamilies living in this unit |
+| NUMSECFAM | Number of secondary families living in this unit|
 
 Keep writing more stuff here!
 
