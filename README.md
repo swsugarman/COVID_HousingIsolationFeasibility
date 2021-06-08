@@ -18,10 +18,9 @@ The American Housing Survey (AHS) is sponsored by the Department of Housing and 
 
 The survey provides up-to-date information about the quality and cost of housing in the United States and major metropolitan areas. The survey also includes questions about:
 
-the physical condition of homes and neighborhoods,
-the costs of financing and maintaining homes, and
-the characteristics of people who live in these homes.
-Planners, policy makers, and community stakeholders use the results of the AHS to assess the housing needs of communities and the country.  These statistics inform decisions that affect the housing opportunities for people of all income levels, ages, and racial and ethnic groups.
+*the physical condition of homes and neighborhoods,
+*the costs of financing and maintaining homes, and
+*the characteristics of people who live in these homes.
 
 
 ## Data Dictionary
@@ -35,8 +34,34 @@ Planners, policy makers, and community stakeholders use the results of the AHS t
 | MULTIGEN | Type of multigenerational household |
 | NUMSUBFAM | Number of subfamilies living in this unit |
 | NUMSECFAM | Number of secondary families living in this unit|
+|CONTROL| AHS 2015 control number aka internal census. gov household ID number|
+| OMB13CBSA | CBSA Metropolitan Area | 
+| VACANCY| Vacancy status |
+| BLD | Type of housing unit| 
+| UNITSIZE | Unit size in square feet | 
+| TOTROOMS| Total number of rooms in unit |
+|BEDROOMS| Number of bedrooms in unit |
+| BATHROOMS |Number of bathrooms in unit | 
+|HSHLDTYPE|Type of household|
+|NUMPEOPLE|Number of persons living in this unit| 
+|NUMADULTS|Number of persons age 18 and over living in this unit|
+|NUMELDERS|Number of persons age 65 and over living in this unit|
+|NUMYNGKIDS|Number of children under age 6 living in this unit|
+|NUMOLDKIDS|Number of children age 6 through 17 living in this unit|
+|NUMVETS|Number of veterans living in this unit|
+|NUMNONREL|Number of nonrelatives living in this unit|
+|MULTIGEN|Type of multigenerational household|
+|GRANDHH|Flag indicating grandparent headed household with no parent present|
+|NUMSUBFAM|Number of subfamilies living in this unit|
+|NUMSECFAM|Number of secondary families living in this unit|
+|DISHH|Flag indicating disabled person household|
+|WASHER|Flag indicating unit has a working washing machine| 
+|DRYER|Type of clothes dryer|
+|FRIDGE|Flag indicating unit has a working refrigerator| 
+|COOKTYPE|Type of cooking equipment|
+|KITEXCLU|Flag indicating the unit's kitchen facilities are for the exclusive use of the household|
+|BATHEXCLU|Flag indicating the unit's bathroom facilities are for the exclusive use of the household|
 
-Keep writing more stuff here!
 
 ## Important Links
 
