@@ -27,13 +27,6 @@ The survey provides up-to-date information about the quality and cost of housing
 
 | Field | Description |
 | :--- | :--- |
-| BEDROOMS | Number of bedrooms in unit |
-| BATHROOMS | Number of bathrooms in unit |
-| NUMPEOPLE | Number of persons living in this unit |
-| NUMELDERS | Number of persons age 65 and over living in this unit |
-| MULTIGEN | Type of multigenerational household |
-| NUMSUBFAM | Number of subfamilies living in this unit |
-| NUMSECFAM | Number of secondary families living in this unit|
 |CONTROL| AHS 2015 control number aka internal census. gov household ID number|
 | OMB13CBSA | CBSA Metropolitan Area | 
 | VACANCY| Vacancy status |
