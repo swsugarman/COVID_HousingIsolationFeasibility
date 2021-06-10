@@ -1,4 +1,4 @@
-# What Housing Determinents Affected COVID Case Counts  
+# Housing Feasible for Isolation and COVID Case Counts  
 
 ## Introduction
 
