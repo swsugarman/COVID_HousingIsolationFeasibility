@@ -11,17 +11,14 @@ One of the most important tools for limiting pandemic spread and surge levels is
 
 Maintaining proper home isolation is only feasible if the housing unit has at least one half bathroom and one bedroom more than the number of people living in the household. While a studio apartment may safely accomomodate the isolation of an individual living alone, a studio would be an infeasible housing unit for isolation if there were two people residing in it. Similarly, a two bedroom one bathroom housing unit with two or more residents could not feasibly maintain isolation as there would not be a bathroom that could be solely dedicated to the use of the isolated individual. In an Annals of Internal Medicine letter, researchers concluded that 'More than 1 in 5 U.S. homes, housing about one quarter of all Americans, lack sufficient space and plumbing facilities to comply with recommendations to isolate or quarantine to limit household spread of COVID-19.' They also found significantly greater disparities among BIPOC, apartment dwellers, and poorer individuals. 
 
-Using the American Housing Survey's metropolitan-level data on household sizes, bedrooms, and bathrooms, I will calculate each metropolitan area's proportion of households able to feasibly follow the CDC Isolation guidance. 
+Using the American Housing Survey's metropolitan-level data on household sizes, bedrooms, and bathrooms, I will calculate each metropolitan area's proportion of households able to feasibly follow the CDC Isolation guidance. The American Housing Survey, the most in-depth and comprehensive national housing, has been conducted by the US Census Bureau on behalf of the Department of Housing and Urban Development (HUD) since 1973 biennially in odd-numbered years. The housing unit samples were redrawn in 2015 and covering a representative national sample as well as the Top 15 metopolitan areas (by size) and the Next 20 metropolitan areas (a set of metropolitan areas ranging from 16th to 51st largest by population) that are including in the survey in opposing biennial cycles. Due to the challenges of data processing and maintaining the privacy of respondents, the 2019 public use microdata files are not scheduled for release until Fall 2021.
 
-## American Housing Survey
-The American Housing Survey (AHS) is sponsored by the Department of Housing and Urban Development (HUD) and conducted by the U.S. Census Bureau. The survey has been the most comprehensive national housing survey in the United States since its inception in 1973, providing current information on the size, composition, and quality of the nation’s housing and measuring changes in our housing stock as it ages. The AHS is a longitudinal housing unit survey conducted biennially in odd-numbered years, with samples redrawn in 1985 and 2015 .
 
-The survey provides up-to-date information about the quality and cost of housing in the United States and major metropolitan areas. The survey also includes questions about:
+## Datasets
 
-*the physical condition of homes and neighborhoods,
-*the costs of financing and maintaining homes, and
-*the characteristics of people who live in these homes.
-
+** 2015 American Housing Survey Public Use Flat Files from Census.gov including the National Public Use File (ahs2015n.csv) and Metropolitan Public Use File (ahs2015m.csv) downloaded from https://www.census.gov/programs-surveys/ahs/data/2015/ahs-2015-public-use-file--puf-.html
+** OMB2013CBSA code crosswalk from https://public.opendatasoft.com/explore/dataset/core-based-statistical-areas-cbsas-and-combined-statistical-areas-csas/download/?format=xls&timezone=America/Los_Angeles&lang=en&use_labels_for_header=true
+**  USAFacts.org US COVID-19 cases and deaths by state from https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
 
 ## Data Dictionary
 
@@ -63,3 +60,4 @@ The survey provides up-to-date information about the quality and cost of housing
 * [CDC](https://www.cdc.gov/coronavirus/2019-ncov/hcp/guidance-home-care.html) - CDC Guidance on Home Isolation and Care 
 * [Census](https://www.census.gov/library/stories/2021/04/were-american-homes-ready-for-the-pandemic.html?utm_campaign=20210413msacos1ccstors&utm_medium=email&utm_source=govdelivery) - Were American Homes Ready for the Pandemic?
 * [Annals of Internal Medicine](https://www.acpjournals.org/doi/10.7326/M20-4331) - Feasibility of Separate Rooms for Home Isolation and Quarantine for COVID-19 in the United States
+
