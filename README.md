@@ -6,8 +6,8 @@ On the West Coast, the metropolitan areas of COVID-19 case counts soared in the 
 
 One of the most important tools for limiting pandemic spread and surge levels is to have individuals with possible COVID exposure or a positive COVID test undergo a 14 day isolation period. While a few limited jurisdictions had isolation hotels set up for the homeless or at-risk groups, the standard guidance was that individuals should isolated at home upon notification of a positive test result or possible exposure. The CDC's requirements for home isolation include:
 
-* There is a bedroom where the patient can recover without sharing immediate space with others.
-* There is a separate bathroom for the patient. If this is not feasible, care should be taken to disinfect the bathroom after each use.
+>* There is a bedroom where the patient can recover without sharing immediate space with others.
+>* There is a separate bathroom for the patient. If this is not feasible, care should be taken to disinfect the bathroom after each use.
 
 Maintaining proper home isolation is only feasible if the housing unit has at least one half bathroom and one bedroom more than the number of people living in the household. While a studio apartment may safely accomomodate the isolation of an individual living alone, a studio would be an infeasible housing unit for isolation if there were two people residing in it. Similarly, a two bedroom one bathroom housing unit with two or more residents could not feasibly maintain isolation as there would not be a bathroom that could be solely dedicated to the use of the isolated individual. In an Annals of Internal Medicine letter, researchers concluded that 'More than 1 in 5 U.S. homes, housing about one quarter of all Americans, lack sufficient space and plumbing facilities to comply with recommendations to isolate or quarantine to limit household spread of COVID-19.' They also found significantly greater disparities among BIPOC, apartment dwellers, and poorer individuals. 
 
@@ -16,7 +16,7 @@ Using the American Housing Survey's metropolitan-level data on household sizes, 
 
 ## Datasets
 
-** 2015 American Housing Survey Public Use Flat Files from Census.gov including the National Public Use File (ahs2015n.csv) and Metropolitan Public Use File (ahs2015m.csv) downloaded from https://www.census.gov/programs-surveys/ahs/data/2015/ahs-2015-public-use-file--puf-.html
+** 2015 American Housing Survey Public Use Microdata Flat Files from Census.gov including the National Public Use File (ahs2015n.csv) and Metropolitan Public Use File (ahs2015m.csv) downloaded from https://www.census.gov/programs-surveys/ahs/data/2015/ahs-2015-public-use-file--puf-.html
 ** OMB2013CBSA code crosswalk from https://public.opendatasoft.com/explore/dataset/core-based-statistical-areas-cbsas-and-combined-statistical-areas-csas/download/?format=xls&timezone=America/Los_Angeles&lang=en&use_labels_for_header=true
 **  USAFacts.org US COVID-19 cases and deaths by state from https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
 
@@ -24,8 +24,10 @@ Using the American Housing Survey's metropolitan-level data on household sizes, 
 
 | Field | Description |
 | :--- | :--- |
+| American Housing Survey 2015 |
+| :--- | :--- |
 |CONTROL| AHS 2015 control number aka internal census. gov household ID number|
-| OMB13CBSA | CBSA Metropolitan Area | 
+| OMB13CBSA | CBSA Metropolitan Area numerical code | 
 | VACANCY| Vacancy status |
 | BLD | Type of housing unit| 
 | UNITSIZE | Unit size in square feet | 
@@ -51,7 +53,22 @@ Using the American Housing Survey's metropolitan-level data on household sizes, 
 |COOKTYPE|Type of cooking equipment|
 |KITEXCLU|Flag indicating the unit's kitchen facilities are for the exclusive use of the household|
 |BATHEXCLU|Flag indicating the unit's bathroom facilities are for the exclusive use of the household|
-
+| :--- | :--- |
+| USAFacts.org US COVID-19 cases and deaths by state |
+| :--- | :--- |
+|CountyFIPS|Federal standard numerical identifier composed of a two digit stateFIPS numerical code and a three digit county identifying code |
+|StateFIPS | Federal standard two digit numerical identifier for every state and territory |
+|Population | Census population data by county then summed by metropolitan area|
+|Cases | Total confirmed COVID-19 cases by county as reported to the CDC by 6/9/2021 |
+| :--- | :--- |
+| OMB2013CBSA code crosswalk |
+| :--- | :--- |
+| CBSA Code| CBSA Metropolitan Area numerical code |	
+|CBSA Title | CBSA Metropolitan Area official title |
+|County/County Equivalent | County name |
+| State Name| State |
+|FIPS State Code|Federal standard two digit numerical identifier for every state and territory|
+|FIPS County Code|Federal standard numerical identifier composed of a two digit stateFIPS numerical code and a three digit county identifying code|
 
 ## Important Links
 
